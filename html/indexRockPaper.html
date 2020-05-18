@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html oncontextmenu="return false">
+	<head>
+
+		<link rel="stylesheet" type="text/css" href="../css/rockStyles.css">
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<header>
+			<h1 class = "title">Rock Paper Scissors </h1>
+			<div id="userCoinCount">
+				<p>Your Coins:</p>
+			</div>
+			<div id="userMoney">
+				<p>100 💰</p>
+			</div>
+		</header>
+
+		<div class = "score-board">
+			<div id = "user-label" class = "badge">user</div>		
+			<div id = "computer-label" class = "badge">comp</div>		
+			<span id = "user-score">0</span>:<span id = "computer-score">0</span>
+		</div>
+		<button onclick="reloadButton()" id = "reloadButton" class = "buttons">Start Over!</button>
+		<div class="gameMaker">
+		<a href="gameMode.html" target="_blank" style = "text-decoration: none;"> <button class = "buttons">Set up a match</button> </a>
+		</div>
+
+		<div class = "result">
+			<p>Start My Game!</p>
+		<br>
+		</div>
+		<div class = "choices" >
+			<div class = "choice" id = "r">
+				<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRLWm4FG-zEhvPVxyOylMmdkyiyAEjD_30l3r8CGjqKxL4la7b9&usqp=CAU" alt = "Rock Image" width = "100px" height = "100px" title="ROCK">
+			</div>
+				<div class = "choice" id = "p">
+				<img src="https://www.pngfind.com/pngs/m/627-6273504_rock-paper-scissors-paper-rock-scissors-png-transparent.png" width = "100px" height = "100px" title = "PAPER">
+			</div>
+				<div class = "choice" id = "s">	
+				<img src="https://spng.pngfind.com/pngs/s/627-6272685_rock-paper-scissors-hd-png-download.png" width = "100px" height = "100px" title = "SCISSORS">
+				</div>
+			</div>
+			<p id = "action-message">Make your move</p>
+			<script src = "../javaScript/app.js" charset = "utf-8"></script>
+		</div>	
+	</body>	
+</html>
